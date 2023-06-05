@@ -1,0 +1,63 @@
+.select-visualization-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .select-visualization-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1db954;
+  }
+  
+  .select-visualization-container select {
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 2px solid #1db954;
+    border-radius: 5px;
+    color: #1db954;
+  }
+  
+  .visualization-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .visualization {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #f2f2f2;
+    border: 2px solid #1db954;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .visualization h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1db954;
+  }
+  
+  .visualization p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .visualization .heart-icon {
+    font-size: 2rem;
+    color: #1db954;
+    cursor: pointer;
+  }
+  
+  .visualization .heart-icon.filled {
+    color: red;
+  }
+  

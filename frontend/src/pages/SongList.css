@@ -1,0 +1,55 @@
+.songlist-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .songlist {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .songlist th,
+  .songlist td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .songlist th {
+    background-color: #f2f2f2;
+  }
+  
+  .songlist tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .songlist-item-favorite {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .songlist-item-add-to-favorites,
+  .songlist-item-remove-from-favorites {
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .songlist-item-add-to-favorites:hover,
+  .songlist-item-remove-from-favorites:hover {
+    background-color: #0d8050;
+  }
+  
