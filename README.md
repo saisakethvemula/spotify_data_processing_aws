@@ -1,5 +1,11 @@
 # Serverless application for Spotify Data Processing on AWS 
 
+** New Update **
+
+I have discovered better AWS services to automate this pipeline and use it on large scale. I am currently working on using Glue to create ETL jobs to Extract csv data from S3 bucket, create a data catalog for the data, Transform it using PySpark on Glue job and transform the output to a parquet file and push it to DynamoDB or S3. I am keen on using Athena to query our data. This would still be scheduled to run once new weekly data comes in and is transformed for our usecase.
+
+****
+
 Objective:
 The objective of this project is to create a scalable, secure, and efficient data pipeline that extracts, transforms, and loads data from the Spotify API into a normalized DynamoDB database, and makes it available for visualization and analysis on the front end. By doing so, we aim to provide an accessible and user-friendly way of analyzing Spotify data, which can be used by individuals and organizations to gain insights into their music preferences and behaviors. Additionally, the project aims to demonstrate how various AWS services can be used together to create a reliable and efficient data pipeline, which can be adapted to different use cases and industries. Ultimately, the goal is to provide a valuable tool for music enthusiasts and professionals alike, while also showcasing the power and versatility of AWS services.
 
